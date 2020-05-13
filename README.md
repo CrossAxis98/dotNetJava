@@ -10,8 +10,11 @@ WorkerHourTracker is simple app written in C#.Net with WPF using Oracle database
 * Extended.Wpf.Toolkit
 * log4net
 * Microsoft.EntityFrameworkCore.Tools
-* Newtonsofr.Json
+* Newtonsoft.Json
 * Oracle.EntityFrameworkCore 
+
+## API
+[OpenWeather](https://openweathermap.org/api)
 
 ## Installation and configuration 
 ```git
@@ -21,7 +24,7 @@ open app
 ```
 * install Oracle database on your local computer
 * create new database and configurate ConnectionString in EmploeeContext.cs file
-* add new migration to database
+* update database
 * run application
 
 ## Views from app
